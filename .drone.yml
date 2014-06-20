@@ -1,4 +1,4 @@
-image: bradrydzewski/ruby:2.1.0
+image: dockerfile/ruby
 script:
   - bundle install
   - bundle exec rspec
